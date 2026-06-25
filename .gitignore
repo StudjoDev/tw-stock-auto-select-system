@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+.next-runtime/
+.runtime/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+test-results/
+playwright-report/
+.playwright-cli/
+
+# Local data and generated files
+/data/
+/exports/
+/output/
+frontend/.next-build.lock/
+*.log
+*.tsbuildinfo
+*.sqlite3
+*.db
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

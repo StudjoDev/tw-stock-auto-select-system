@@ -1,0 +1,11 @@
+{
+  "name": "default-risk",
+  "mode": "balanced",
+  "account_capital_twd": 1000000,
+  "max_trade_risk_pct": 0.5,
+  "max_daily_risk_pct": 1.5,
+  "max_holdings": 4,
+  "min_liquidity_twd_million": 50.0,
+  "slippage_buffer_pct": 0.15,
+  "lot_size": 1000
+}

@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-06-26T00:16:36.492498+08:00",
+  "runs": [
+    {
+      "run_id": "ae2cfb14-cd68-43f0-8374-3fb63eac46b8",
+      "run_date": "2026-06-26",
+      "generated_at": "2026-06-26T00:16:36.492498+08:00",
+      "candidate_count": 3,
+      "exclusion_count": 2,
+      "data_version": "2026-06-26-mock-13:00-7148ba6ebe",
+      "provider": "mock"
+    },
+    {
+      "run_id": "3f9500ab-6b37-47e1-8faa-c92ff3b2f7bf",
+      "run_date": "2026-06-26",
+      "generated_at": "2026-06-26T00:15:15.839028+08:00",
+      "candidate_count": 3,
+      "exclusion_count": 2,
+      "data_version": "2026-06-26-mock-13:00-7148ba6ebe",
+      "provider": "mock"
+    },
+    {
+      "run_id": "095a5f7a-7df4-4395-8cfd-7e0ce5b5aa4a",
+      "run_date": "2026-06-26",
+      "generated_at": "2026-06-26T00:13:56.218024+08:00",
+      "candidate_count": 3,
+      "exclusion_count": 2,
+      "data_version": "2026-06-25-mock-13:00-7148ba6ebe",
+      "provider": "mock"
+    },
+    {
+      "run_id": "cd4123cc-e8b9-409b-b06f-30dca47ca554",
+      "run_date": "2026-06-26",
+      "generated_at": "2026-06-26T00:11:27.150159+08:00",
+      "candidate_count": 3,
+      "exclusion_count": 2,
+      "data_version": "2026-06-25-mock-13:00-7148ba6ebe",
+      "provider": "mock"
+    }
+  ]
+}

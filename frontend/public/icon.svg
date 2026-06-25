@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="13:00 stock screener icon">
+  <rect width="128" height="128" rx="24" fill="#276b61"/>
+  <path d="M24 82h18V46H27V34h29v48h16v12H24V82Z" fill="#f7f5ef"/>
+  <path d="M80 36h26v12H92v10h11v12H92v12h16v12H78V82h2V36Z" fill="#f1c27d"/>
+  <path d="M24 104h80" stroke="#f7f5ef" stroke-width="8" stroke-linecap="round"/>
+</svg>
+

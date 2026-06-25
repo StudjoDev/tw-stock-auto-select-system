@@ -1,0 +1,265 @@
+{
+  "plan": "free",
+  "run": {
+    "id": "ae2cfb14-cd68-43f0-8374-3fb63eac46b8",
+    "rule_id": "default-rule",
+    "run_date": "2026-06-26",
+    "status": "completed",
+    "data_version": "2026-06-26-mock-13:00-7148ba6ebe",
+    "started_at": "2026-06-25T16:16:36.490568Z",
+    "rule_snapshot": {
+      "id": "default-rule",
+      "name": "13:00 運輝選股",
+      "min_pct_change": 3.0,
+      "max_pct_change": 5.0,
+      "min_volume_intensity": 1.0,
+      "min_turnover_rate": 5.0,
+      "max_turnover_rate": 10.0,
+      "min_market_cap_billion": 200.0,
+      "max_market_cap_billion": 1000.0,
+      "limit_up_lookback_days": 20,
+      "min_vwap_above_ratio": 0.8,
+      "vwap_reclaim_bars": 3,
+      "vwap_tolerance_pct": 0.2,
+      "notification_time": "13:00:00",
+      "enabled": true
+    },
+    "risk_profile_snapshot": {
+      "id": "default-risk-profile",
+      "name": "default-risk",
+      "mode": "balanced",
+      "account_capital_twd": 1000000,
+      "max_trade_risk_pct": 0.5,
+      "max_daily_risk_pct": 1.5,
+      "max_holdings": 4,
+      "min_liquidity_twd_million": 50.0,
+      "slippage_buffer_pct": 0.15,
+      "lot_size": 1000
+    },
+    "input_snapshot_hash": "7148ba6ebea839578dcc9cc6ebe8abeb54dfa885ecfd84f705009830f54b1301",
+    "universe_hash": "21c8e1e65dac7b6b55b684eaf542b4be2a809f8d0197532611f6dfca8f564d52",
+    "risk_profile_hash": "6dafbf9c908590a98d35de52db963f38b86cb934f6db9737dfcd46cda6d7ed3b",
+    "score_formula_version": "match-score-v1",
+    "completed_at": "2026-06-25T16:16:36.490753Z",
+    "error_message": null
+  },
+  "rule": {
+    "id": "default-rule",
+    "name": "13:00 運輝選股",
+    "min_pct_change": 3.0,
+    "max_pct_change": 5.0,
+    "min_volume_intensity": 1.0,
+    "min_turnover_rate": 5.0,
+    "max_turnover_rate": 10.0,
+    "min_market_cap_billion": 200.0,
+    "max_market_cap_billion": 1000.0,
+    "limit_up_lookback_days": 20,
+    "min_vwap_above_ratio": 0.8,
+    "vwap_reclaim_bars": 3,
+    "vwap_tolerance_pct": 0.2,
+    "notification_time": "13:00:00",
+    "enabled": true
+  },
+  "risk_profile": {
+    "id": "default-risk-profile",
+    "name": "default-risk",
+    "mode": "balanced",
+    "account_capital_twd": 1000000,
+    "max_trade_risk_pct": 0.5,
+    "max_daily_risk_pct": 1.5,
+    "max_holdings": 4,
+    "min_liquidity_twd_million": 50.0,
+    "slippage_buffer_pct": 0.15,
+    "lot_size": 1000
+  },
+  "provenance": {
+    "ingestion_batch_id": "mock-20260626-1300-7148ba6e",
+    "provider": "mock",
+    "mode": "demo",
+    "license_status": "not_licensed",
+    "can_redistribute": false,
+    "cutoff_time": "2026-06-26T13:00:00+08:00",
+    "generated_at": "2026-06-26T00:16:36.490542+08:00",
+    "data_version": "2026-06-26-mock-13:00-7148ba6ebe",
+    "raw_snapshot_hash": "7148ba6ebea839578dcc9cc6ebe8abeb54dfa885ecfd84f705009830f54b1301",
+    "raw_storage_pointer": "memory://mock/2026-06-26/13:00/7148ba6ebea839578dcc9cc6ebe8abeb54dfa885ecfd84f705009830f54b1301",
+    "provider_version": "mock-v1",
+    "corporate_action_version": "demo-ca-2026-06",
+    "calendar_version": "twse-demo-calendar-2026",
+    "symbol_universe_hash": "21c8e1e65dac7b6b55b684eaf542b4be2a809f8d0197532611f6dfca8f564d52",
+    "bar_interval": "1m-demo",
+    "usage_notice": "目前為展示資料，尚未取得正式行情授權，不可作為付費即時推播或再散布資料。"
+  },
+  "candidates": [
+    {
+      "symbol": "3037",
+      "name": "欣興",
+      "match_score": 85.98,
+      "reference_price": 170.8,
+      "pct_change": 4.15,
+      "volume_intensity": 1.7,
+      "turnover_rate": 8.8,
+      "market_cap_billion": 262.0,
+      "had_limit_up_recently": true,
+      "vwap_above_ratio": 1.0,
+      "vwap_reclaimed_within_bars": true,
+      "vwap_breach_count": 0,
+      "vwap_worst_distance_pct": 0.0,
+      "risk_level": "low",
+      "risk_notes": [
+        "分時結構穩定，但仍需依照個人風控限制使用"
+      ],
+      "risk_flags": [],
+      "liquidity_twd_million": 229.98,
+      "distance_to_limit_up_pct": 5.62,
+      "intraday_pullback_pct": 0.2,
+      "late_session_change_pct": 0.35,
+      "stop_loss_reference_pct": 1.5,
+      "max_position_pct": 8.0,
+      "reasons": [
+        "漲幅 4.15% 落在設定區間",
+        "成交強度量比 1.70 大於 5 日均量門檻",
+        "換手率 8.80% 落在設定區間",
+        "市值 262 億符合中型股範圍",
+        "近 20 天內有漲停紀錄",
+        "100% 分鐘 K 收在 VWAP 容忍區上方，跌破次數 0，皆在規則內站回"
+      ],
+      "warnings": [],
+      "masked": false
+    },
+    {
+      "symbol": "2345",
+      "name": "智邦",
+      "match_score": 85.33,
+      "reference_price": 852.0,
+      "pct_change": 3.9,
+      "volume_intensity": 1.36,
+      "turnover_rate": 7.2,
+      "market_cap_billion": 472.0,
+      "had_limit_up_recently": true,
+      "vwap_above_ratio": 1.0,
+      "vwap_reclaimed_within_bars": true,
+      "vwap_breach_count": 0,
+      "vwap_worst_distance_pct": 0.0,
+      "risk_level": "low",
+      "risk_notes": [
+        "分時結構穩定，但仍需依照個人風控限制使用"
+      ],
+      "risk_flags": [],
+      "liquidity_twd_million": 1146.91,
+      "distance_to_limit_up_pct": 5.87,
+      "intraday_pullback_pct": 0.2,
+      "late_session_change_pct": 0.47,
+      "stop_loss_reference_pct": 1.5,
+      "max_position_pct": 8.0,
+      "reasons": [
+        "漲幅 3.90% 落在設定區間",
+        "成交強度量比 1.36 大於 5 日均量門檻",
+        "換手率 7.20% 落在設定區間",
+        "市值 472 億符合中型股範圍",
+        "近 20 天內有漲停紀錄",
+        "100% 分鐘 K 收在 VWAP 容忍區上方，跌破次數 0，皆在規則內站回"
+      ],
+      "warnings": [],
+      "masked": false
+    },
+    {
+      "symbol": "64**",
+      "name": "付費版揭露",
+      "match_score": 78.65,
+      "reference_price": 631.0,
+      "pct_change": 3.44,
+      "volume_intensity": 1.21,
+      "turnover_rate": 5.4,
+      "market_cap_billion": 214.0,
+      "had_limit_up_recently": true,
+      "vwap_above_ratio": 1.0,
+      "vwap_reclaimed_within_bars": true,
+      "vwap_breach_count": 0,
+      "vwap_worst_distance_pct": 0.0,
+      "risk_level": "low",
+      "risk_notes": [
+        "升級後可查看完整風控註記"
+      ],
+      "risk_flags": [
+        "masked"
+      ],
+      "liquidity_twd_million": 849.94,
+      "distance_to_limit_up_pct": 6.34,
+      "intraday_pullback_pct": 0.2,
+      "late_session_change_pct": 0.48,
+      "stop_loss_reference_pct": 1.5,
+      "max_position_pct": 8.0,
+      "reasons": [
+        "升級後可查看完整入選原因"
+      ],
+      "warnings": [],
+      "masked": true
+    }
+  ],
+  "exclusions_preview": [
+    {
+      "symbol": "2330",
+      "name": "台積電",
+      "primary_reason": "換手率 0.80% 不在 5.0-10.0%",
+      "failed_conditions": [
+        "換手率 0.80% 不在 5.0-10.0%",
+        "市值 38000 億不在 200-1000 億",
+        "近 20 天內沒有漲停紀錄"
+      ],
+      "pct_change": 3.61,
+      "volume_intensity": 1.17,
+      "turnover_rate": 0.8,
+      "market_cap_billion": 38000.0
+    },
+    {
+      "symbol": "3017",
+      "name": "奇鋐",
+      "primary_reason": "漲幅 6.85% 不在 3.0-5.0%",
+      "failed_conditions": [
+        "漲幅 6.85% 不在 3.0-5.0%"
+      ],
+      "pct_change": 6.85,
+      "volume_intensity": 1.05,
+      "turnover_rate": 6.8,
+      "market_cap_billion": 294.0
+    }
+  ],
+  "exclusions": [
+    {
+      "symbol": "2330",
+      "name": "台積電",
+      "primary_reason": "換手率 0.80% 不在 5.0-10.0%",
+      "failed_conditions": [
+        "換手率 0.80% 不在 5.0-10.0%",
+        "市值 38000 億不在 200-1000 億",
+        "近 20 天內沒有漲停紀錄"
+      ],
+      "pct_change": 3.61,
+      "volume_intensity": 1.17,
+      "turnover_rate": 0.8,
+      "market_cap_billion": 38000.0
+    },
+    {
+      "symbol": "3017",
+      "name": "奇鋐",
+      "primary_reason": "漲幅 6.85% 不在 3.0-5.0%",
+      "failed_conditions": [
+        "漲幅 6.85% 不在 3.0-5.0%"
+      ],
+      "pct_change": 6.85,
+      "volume_intensity": 1.05,
+      "turnover_rate": 6.8,
+      "market_cap_billion": 294.0
+    }
+  ],
+  "exclusions_count": 2,
+  "upgrade": {
+    "title": "Upgrade to Pro",
+    "price": "NT$299 / mo",
+    "cta": "Subscribe for full features"
+  },
+  "compliance_notice": "Static demo mode. This page is for reference only.",
+  "risk_notice": "Risk warnings are included for every pick based on current rule output.",
+  "data_notice": "目前為展示資料，尚未取得正式行情授權，不可作為付費即時推播或再散布資料。"
+}

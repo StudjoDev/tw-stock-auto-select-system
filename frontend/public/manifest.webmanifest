@@ -1,0 +1,16 @@
+{
+  "name": "台股 13:00 條件篩選工具",
+  "short_name": "13:00 篩選",
+  "description": "台股盤中條件篩選、風控與通知工作台。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#276b61",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

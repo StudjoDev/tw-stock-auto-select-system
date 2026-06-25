@@ -1,0 +1,16 @@
+{
+  "name": "13:00 \u904b\u8f1d\u9078\u80a1",
+  "min_pct_change": 3.0,
+  "max_pct_change": 5.0,
+  "min_volume_intensity": 1.0,
+  "min_turnover_rate": 5.0,
+  "max_turnover_rate": 10.0,
+  "min_market_cap_billion": 200.0,
+  "max_market_cap_billion": 1000.0,
+  "limit_up_lookback_days": 20,
+  "min_vwap_above_ratio": 0.8,
+  "vwap_reclaim_bars": 3,
+  "vwap_tolerance_pct": 0.2,
+  "notification_time": "13:00:00",
+  "enabled": true
+}
