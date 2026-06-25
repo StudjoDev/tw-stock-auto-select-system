@@ -58,6 +58,7 @@ jobs:
         env:
           NEXT_PUBLIC_STATIC_DATA: "1"
           NEXT_PUBLIC_API_BASE_URL: ""
+          NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
         run: npm run build
 
       - name: Configure Pages
